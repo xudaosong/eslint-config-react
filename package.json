@@ -1,0 +1,64 @@
+{
+  "name": "eslint-config-react-nd",
+  "description": "JavaScript Standard Style React/JSX support - ESLint Shareable Config",
+  "version": "1.0.0",
+  "author": {
+    "name": "xudaosong",
+    "email": "xudaosong@163.com",
+    "url": "https://github.com/xudaosong/"
+  },
+  "bugs": {
+    "url": "https://github.com/xudaosong/eslint-config-react-nd/issues"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^7.0.0",
+    "eslint-config-standard-react": "^4.2.0",
+    "tape": "^4.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-plugin-react": "^6.10.0"
+  },
+  "homepage": "https://github.com/xudaosong/eslint-config-react-nd",
+  "keywords": [
+    "JavaScript Standard Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "jsx",
+    "lint",
+    "policy",
+    "quality",
+    "react",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=3.16.1",
+    "eslint-plugin-react": ">=6.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudaosong/eslint-config-react-nd"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
+}
